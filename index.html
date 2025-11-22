@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  
+    <title>m.hshanto</title>
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+
+  <!----Tailwind css-->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- style.css link -->
+   <link rel="stylesheet" href="style.css">
+   <!-- daisy ui  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- font -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+  <body>
+ 
+ <!-- Fixed Responsive Navbar -->
+<nav class="w-full bg-base-100 shadow">
+  <div class="px-6 md:px-24 py-4 flex items-center justify-between">
+    
+    <!-- Logo -->
+    <div class="flex items-center">
+      <img src="img/icons8-bookmark-100.png" alt="Logo" class="h-10 w-auto mr-3">
+      <p class="font-bold text-2xl text-base-content">M.H SHANTO</p>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex items-center space-x-6 font-semibold">
+      <a href="#" class="text-base-content hover:text-primary transition">Home</a>
+      <a href="#" class="text-base-content hover:text-primary transition">About</a>
+      <a href="#" class="text-base-content hover:text-primary transition">Skill</a>
+      <a href="#" class="text-base-content hover:text-primary transition">Project</a>
+      <a href="#" class="text-base-content hover:text-primary transition">Contact</a>
+
+      <!-- Theme Toggle -->
+      <label class="swap swap-rotate cursor-pointer">
+        <input type="checkbox" class="theme-controller" value="dark" />
+
+        <!-- sun -->
+        <svg class="swap-off h-8 w-8 fill-current text-yellow-400" xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 24 24">
+          <path d="M5 12a7 7 0 1 1 7 7"/>
+        </svg>
+
+        <!-- moon -->
+        <svg class="swap-on h-8 w-8 fill-current text-white" xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 24 24">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z" />
+        </svg>
+      </label>
+
+      <a href="#" class="inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium   bg-gradient-to-r from-indigo-500 to-purple-600 shadow-lg shadow-indigo-500/40
+                 hover:from-indigo-400 hover:to-purple-500 active:scale-[0.98] transition px-4">Login</a>
+      <a href="#" class="inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium  bg-gradient-to-r from-indigo-500 to-purple-600 shadow-lg shadow-indigo-500/40
+                 hover:from-indigo-400 hover:to-purple-500 active:scale-[0.98] transition px-4">Register</a>
+    </div>
+
+    <!-- Mobile Button -->
+    <button id="mobile-menu-button" class="md:hidden text-base-content">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center space-y-4 py-4 bg-base-200">
+    <a href="#" class="text-base-content font-semibold">Home</a>
+    <a href="#" class="text-base-content font-semibold">About</a>
+    <a href="#" class="text-base-content font-semibold">Skill</a>
+    <a href="#" class="text-base-content font-semibold">Project</a>
+    <a href="#" class="text-base-content font-semibold">Contact</a>
+
+    <!-- Theme toggle -->
+    <label class="swap swap-rotate cursor-pointer">
+      <input type="checkbox" class="theme-controller" value="dark" />
+      <svg class="swap-off h-8 w-8 fill-current text-yellow-400" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24">
+        <path d="M5 12a7 7 0 1 1 7 7"/>
+      </svg>
+      <svg class="swap-on h-8 w-8 fill-current text-white" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z" />
+      </svg>
+    </label>
+
+    <div class="flex space-x-3">
+      <a class="inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium  bg-gradient-to-r from-indigo-500 to-purple-600 shadow-lg shadow-indigo-500/40
+                 hover:from-indigo-400 hover:to-purple-500 active:scale-[0.98] transition px-4">Login</a>
+      <a class="inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium  bg-gradient-to-r from-indigo-500 to-purple-600 shadow-lg shadow-indigo-500/40
+                 hover:from-indigo-400 hover:to-purple-500 active:scale-[0.98] transition px-4">Register</a>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<header>
+  <!-- hero <section></section> -->
+   <section class="min-h-screen bg-slate-950 text-slate-100 flex items-center">
+  <div class="max-w-6xl mx-auto px-4 md:px-8 lg:px-10 py-16 grid md:grid-cols-2 gap-10 items-center">
+    
+    <!-- LEFT: TEXT -->
+    <div class="space-y-5">
+      <!-- badge -->
+      <div class="inline-flex items-center gap-2 rounded-full border border-indigo-400/40 bg-indigo-500/10 px-3 py-1 text-xs font-medium">
+        <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>Available for freelance projects</span>
+      </div>
+
+      <div class="space-y-3">
+        <p class="text-sm text-slate-400 uppercase tracking-[0.25em]">
+          Web Developer
+        </p>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+          Hi, I am <span class="bg-gradient-to-r from-cyan-400 via-indigo-400 to-violet-500 bg-clip-text text-transparent">Shanto</span>
+        </h1>
+        <p class="text-sm sm:text-base text-slate-400 max-w-xl">
+          I am a junior web developer who loves building clean, modern and responsive websites. 
+          Hire me for your next project or contact me for collaboration.
+        </p>
+      </div>
+
+      <!-- buttons -->
+      <div class="flex flex-wrap gap-3 pt-2">
+        <a
+          href="mailto:yourmail@gmail.com"
+          class="inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium
+                 bg-gradient-to-r from-indigo-500 to-purple-600 shadow-lg shadow-indigo-500/40
+                 hover:from-indigo-400 hover:to-purple-500 active:scale-[0.98] transition"
+        >
+          Hire Me
+        </a>
+
+        <a
+          href="#contact"
+          class="inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium
+                 border border-slate-500/70 text-slate-100 hover:border-indigo-400 hover:bg-indigo-500/10
+                 active:scale-[0.98] transition"
+        >
+          Contact
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT: IMAGE -->
+    <div class="flex justify-center md:justify-end">
+      <div
+        class="relative w-64 sm:w-72 md:w-80 rounded-3xl border border-slate-600/60
+               bg-gradient-to-br from-slate-900 via-slate-900 to-slate-800 p-1.5
+               shadow-[0_25px_80px_rgba(15,23,42,0.9)]"
+      >
+        <div class="relative overflow-hidden rounded-2xl bg-slate-900">
+          <!-- তোমার ছবি -->
+          <img
+            src="img/JPEG_20241009_163826_8700113048736521611.jpg"
+            alt="Shanto"
+            class="h-full w-full object-cover aspect-[3/4]"
+          />
+
+          <!-- dark overlay top light -->
+          <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent"></div>
+
+          <!-- Tag bottom -->
+          <div class="absolute bottom-3 left-3 rounded-full border border-slate-500/70 bg-slate-900/80 px-3 py-1 text-[11px] text-slate-200 backdrop-blur">
+            <span class="font-semibold text-indigo-300">Shanto</span> • Web Developer
+          </div>
+        </div>
+
+        <!-- glow background -->
+        <div class="pointer-events-none absolute -inset-6 -z-10 bg-[radial-gradient(circle_at_top,rgba(129,140,248,0.55),transparent_60%)] opacity-60"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+   
+
+
+</header>
+
+
+<main>
+  
+</main>
+
+  <footer></footer>
+                  
+
+
+
+
+                 
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Mobile Menu Toggle JS -->
+<script>
+  const menuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+  </body>
+</html>

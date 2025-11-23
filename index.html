@@ -23,7 +23,7 @@
   <body>
  
  <!-- Fixed Responsive Navbar -->
-<nav class="w-full bg-base-100 shadow">
+<nav class="w-full bg-base-100/80 backdrop-blur-xl shadow border-b border-white/10">
   <div class="px-6 md:px-24 py-4 flex items-center justify-between">
     
     <!-- Logo -->
@@ -34,15 +34,16 @@
 
     <!-- Desktop Menu -->
     <div class="hidden md:flex items-center space-x-6 font-semibold">
-      <a href="#" class="text-base-content hover:text-primary transition">Home</a>
-      <a href="#" class="text-base-content hover:text-primary transition">About</a>
-      <a href="#" class="text-base-content hover:text-primary transition">Skill</a>
-      <a href="#" class="text-base-content hover:text-primary transition">Project</a>
-      <a href="#" class="text-base-content hover:text-primary transition">Contact</a>
+
+      <a href="#" class="nav-link">Home</a>
+      <a href="#" class="nav-link">About</a>
+      <a href="#" class="nav-link">Skill</a>
+      <a href="#" class="nav-link">Project</a>
+      <a href="#" class="nav-link">Contact</a>
 
       <!-- Theme Toggle -->
       <label class="swap swap-rotate cursor-pointer">
-        <input type="checkbox" class="theme-controller" value="dark" />
+        <input type="checkbox" class="theme-controller" value="dark"/>
 
         <!-- sun -->
         <svg class="swap-off h-8 w-8 fill-current text-yellow-400" xmlns="http://www.w3.org/2000/svg"
@@ -57,10 +58,11 @@
         </svg>
       </label>
 
-      <a href="#" class="inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium   bg-gradient-to-r from-indigo-500 to-purple-600 shadow-lg shadow-indigo-500/40
-                 hover:from-indigo-400 hover:to-purple-500 active:scale-[0.98] transition px-4">Login</a>
-      <a href="#" class="inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium  bg-gradient-to-r from-indigo-500 to-purple-600 shadow-lg shadow-indigo-500/40
-                 hover:from-indigo-400 hover:to-purple-500 active:scale-[0.98] transition px-4">Register</a>
+      <a href="#" class="btn-glass inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium
+                 border border-white text-slate-100 bg-slate-900 active:scale-[0.98] transition">Login</a>
+      <a href="#" class="btn-glass inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium
+                 border border-white text-slate-100 bg-slate-900   
+                 active:scale-[0.98] transition">Sign Up</a>
     </div>
 
     <!-- Mobile Button -->
@@ -74,12 +76,13 @@
   </div>
 
   <!-- Mobile Menu -->
-  <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center space-y-4 py-4 bg-base-200">
-    <a href="#" class="text-base-content font-semibold">Home</a>
-    <a href="#" class="text-base-content font-semibold">About</a>
-    <a href="#" class="text-base-content font-semibold">Skill</a>
-    <a href="#" class="text-base-content font-semibold">Project</a>
-    <a href="#" class="text-base-content font-semibold">Contact</a>
+  <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center space-y-4 py-4 bg-base-200/60 backdrop-blur-xl">
+
+    <a href="#" class="nav-link-mobile">Home</a>
+    <a href="#" class="nav-link-mobile">About</a>
+    <a href="#" class="nav-link-mobile">Skill</a>
+    <a href="#" class="nav-link-mobile">Project</a>
+    <a href="#" class="nav-link-mobile">Contact</a>
 
     <!-- Theme toggle -->
     <label class="swap swap-rotate cursor-pointer">
@@ -95,16 +98,15 @@
     </label>
 
     <div class="flex space-x-3">
-      <a class="inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium  bg-gradient-to-r from-indigo-500 to-purple-600 shadow-lg shadow-indigo-500/40
-                 hover:from-indigo-400 hover:to-purple-500 active:scale-[0.98] transition px-4">Login</a>
-      <a class="inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium  bg-gradient-to-r from-indigo-500 to-purple-600 shadow-lg shadow-indigo-500/40
-                 hover:from-indigo-400 hover:to-purple-500 active:scale-[0.98] transition px-4">Register</a>
+      <a class="btn-glass btn-glass inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium
+                 border border-white text-slate-100 bg-slate-900   
+                 active:scale-[0.98] transition">Login</a>
+      <a class="btn-glass btn-glass inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium
+                 border border-white text-slate-100 bg-slate-900   
+                 active:scale-[0.98] transition">Register</a>
     </div>
   </div>
-</nav>
-
-
-
+</nav>                           <!-- End Nav section  -->
 
 <header>
   <!-- hero <section></section> -->
@@ -164,7 +166,7 @@
         <div class="relative overflow-hidden rounded-2xl bg-slate-900">
           <!-- তোমার ছবি -->
           <img
-            src="img/JPEG_20241009_163826_8700113048736521611.jpg"
+            src="img/WhatsApp Image 2025-11-23 at 13.50.49_4c73133e.jpg"
             alt="Shanto"
             class="h-full w-full object-cover aspect-[3/4]"
           />
@@ -190,9 +192,9 @@
 
 
 </header>
-
-
+                               <!-- End hero section  -->
 <main>
+  
   
 </main>
 
